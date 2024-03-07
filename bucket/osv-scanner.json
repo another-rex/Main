@@ -14,11 +14,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/google/osv-scanner/releases/download/v$version/osv-scanner_$version_windows_amd64.exe#/osv-scanner.exe"
+                "url": "https://github.com/google/osv-scanner/releases/download/v$version/osv-scanner_windows_amd64.exe#/osv-scanner.exe"
             }
         },
         "hash": {
-            "url": "$baseurl/osv-scanner_$version_SHA256SUMS"
+            "url": "$baseurl/osv-scanner_SHA256SUMS"
         }
     }
 }
